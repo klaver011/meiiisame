@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    background: url(../image/back.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 150px;
+}
+
+.text-block {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+
+h1 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    line-height: 2;
+}
+
+p span {
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+}
